@@ -1,2 +1,2 @@
 # mcp-fs
-Minimalist C++ FS
+Minimalist C FS
