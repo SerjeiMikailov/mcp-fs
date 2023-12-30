@@ -9,3 +9,5 @@ cd ..
 cd build
 
 ./fs
+
+less fs_data

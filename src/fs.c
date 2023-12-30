@@ -19,7 +19,7 @@ void create_fs()
   for (i = 0; i < sb.num_inodes; i++)
   {
     inodes[i].size = -1;
-    strcpy(inodes[i].name, "");
+    strcpy(inodes[i].name, "emptyfile");
   }
 
   dbs = malloc(sizeof(struct disk_block) * sb.num_blocks);
